@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Math methods
 ---
 
 # Mathematical methods in statistical mechanics
