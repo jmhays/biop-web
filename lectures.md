@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Lectures
 ---
 
-[Lecture 1](/_lectures/Lecture1.md)
+[Lecture 1](/lectures/Lecture1.md)
