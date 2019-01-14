@@ -23,9 +23,9 @@ title: Mathematical methods in statistical mechanics
     - **objective probability**: obtained experimentally from relative frequencies.
     - **subjective probability**: obtained from a theoretical estimate.
     - subjective probabilities will be critical in our studies of statistical mechanics.
-- Correlated events
-    -
 
+#### Correlated events
+Coming.
 #### Important Probability Distributions
 First, how do we define expectation values?
 
@@ -33,9 +33,16 @@ $$\langle x \rangle = \int xp(x)dx$$
 
 $$\sigma^2 = \langle x^2 \rangle - \langle x \rangle^2 = \int x^2p(x)dx - \left(\int xp(x)dx\right)^2$$
 
+These integrations can get very complex. If you're interested in clever ways to find mean, variance, and higher moments, check out [this](https://en.wikipedia.org/wiki/Characteristic_function_\(probability_theory\)).
+
 ##### Gaussian
 
 $$p(x) = \frac{1}{2\pi\sigma^2}\exp\left[-\frac{(x \lambda)^2}{2\sigma^2}\right]$$
+We'll see a lot more of this distribution because
+
+- momentum goes as $$p^2$$ in energy
+
+- probability goes as the exponential of energy in statistical mechanics: $$\text{prob}(E) \sim \exp\left[p^2\right]$$
 
 ##### Binomial
 
@@ -54,4 +61,4 @@ $$\alpha$$ is the rate of success per unit time.
 #### Practice on your own
 1. What is the probability of obtaining a royal flush in poker?
 2. What is the probability of rolling a 1 on the first roll *or* a 4 on the second roll? Hint: use $$1-p_{fail}$$
-3. The [Khan Academy](https://www.khanacademy.org/math/precalculus/prob-comb) may be of interest!
+3. The [Khan Academy](https://www.khanacademy.org/math/precalculus/prob-comb) may be of interest.
