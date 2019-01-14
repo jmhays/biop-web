@@ -38,7 +38,7 @@ We can choose one of three letters for the first element of the sequence. Once w
 
 ---
 
-In general, there are $$ N! $$ ways to arrange $N$ distinguishable elments in a sequence.
+In general, there are $$ N! $$ ways to arrange $$N$$ distinguishable elments in a sequence.
 
 **Combinations** are unique compositions of members of a set. Here, order does not matter.
 
@@ -58,7 +58,7 @@ $$ \Omega = \frac{N!}{n_1!n_2!\cdots n_t!}$$
 
 ---
 
-**Example: Bose Einstein statistics. How many ways can *n* indistinguishable particles be arrange into *M* boxes**
+**Example: Bose Einstein statistics. How many ways can *n* indistinguishable particles be arrange into *M* boxes?**
 
 Enumerating all the possibilities is just too hard! Luckily, we can do something a little tricky.
 
@@ -102,8 +102,17 @@ $$p(N_H) = {N\choose N_H}p_H^{N_H}(1-p_H)^{N-N_H}$$
 The probability of achieving $$k$$ successes in time $$t$$ is given by
 
 $$P(k, t) = \frac{e^{-\alpha t}(\alpha t)^k}{k!}$$
+-
+$$\alpha$$ is the rate of success per unit time. This is a limiting case of the binomial distribution where
 
-$$\alpha$$ is the rate of success per unit time.
+- the number of trials $$N$$ is much larger than the number of successes $$k$$.
+- $$Np \rightarrow \lambda $$
+
+The easiest thing is to do consider an example. Let's consider radioactive decay. This is a process in which $$N >> k$$. We ask "what is the probability of observing exactly $$k$$ decays in time $$t$$?"
+
+Split up your time interval $$t$$ into $$N$$ very small segments of size $$dt$$. Make them *so* small that only one event occurs in the interval $$dt$$. Then we can treat this as a binomial! Ultimately, you end up using the characteristic function of the binomial in the $$\lim_{dt\rightarrow 0}$$ and what pops out (so much is being left out here!) is the Poisson distribution.
+
+For more details, check out [this](https://www.le.ac.uk/users/dsgp1/COURSES/LEISTATS/poisson.pdf) document.
 
 #### Practice on your own
 1. What is the probability of obtaining a royal flush in poker?
