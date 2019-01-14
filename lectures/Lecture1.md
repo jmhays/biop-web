@@ -52,3 +52,6 @@ $$P(k, t) = \frac{e^{-\alpha t}(\alpha t)^k}{k!}$$
 $$\alpha$$ is the rate of success per unit time.
 
 #### Practice on your own
+1. What is the probability of obtaining a royal flush in poker?
+2. What is the probability of rolling a 1 on the first roll *or* a 4 on the second roll? Hint: use $$1-p_{fail}$$
+3. The [Khan Academy](https://www.khanacademy.org/math/precalculus/prob-comb) may be of interest!
