@@ -102,17 +102,19 @@ $$p(N_H) = {N\choose N_H}p_H^{N_H}(1-p_H)^{N-N_H}$$
 The probability of achieving $$k$$ successes in time $$t$$ is given by
 
 $$P(k, t) = \frac{e^{-\alpha t}(\alpha t)^k}{k!}$$
--
+
 $$\alpha$$ is the rate of success per unit time. This is a limiting case of the binomial distribution where
 
 - the number of trials $$N$$ is much larger than the number of successes $$k$$.
-- $$Np \rightarrow \lambda $$
+- and $$Np \rightarrow \alpha t $$
 
 The easiest thing is to do consider an example. Let's consider radioactive decay. This is a process in which $$N >> k$$. We ask "what is the probability of observing exactly $$k$$ decays in time $$t$$?"
 
-Split up your time interval $$t$$ into $$N$$ very small segments of size $$dt$$. Make them *so* small that only one event occurs in the interval $$dt$$. Then we can treat this as a binomial! Ultimately, you end up using the characteristic function of the binomial in the $$\lim_{dt\rightarrow 0}$$ and what pops out (so much is being left out here!) is the Poisson distribution.
+- Split up your time interval $$t$$ into $$N$$ very small segments of size $$dt$$.
+- Make them *so* small that only one event occurs in the interval $$dt$$. Assume that the probability of success is proportional to the interval $$dt$$, i.e., $$p = \alpha dt$$
+- Then we can treat this as a binomial! Ultimately, you end up using the characteristic function of the binomial in the $$\lim_{dt\rightarrow 0}$$ and what pops out is the Poisson distribution.
 
-For more details, check out [this](https://www.le.ac.uk/users/dsgp1/COURSES/LEISTATS/poisson.pdf) document.
+So much is being left out here! For more details, check out [this](https://www.le.ac.uk/users/dsgp1/COURSES/LEISTATS/poisson.pdf) document.
 
 #### Practice on your own
 1. What is the probability of obtaining a royal flush in poker?
