@@ -33,17 +33,17 @@ $$\langle x \rangle = \int xp(x)dx$$
 
 $$\sigma^2 = \langle x^2 \rangle - \langle x \rangle^2 = \int x^2p(x)dx - \left(\int xp(x)dx\right)^2$$
 
-1. Gaussian
-2.
+##### Gaussian
+
 $$p(x) = \frac{1}{2\pi\sigma^2}\exp\left[-\frac{(x \lambda)^2}{2\sigma^2}\right]$$
 
-2. Binomial
+##### Binomial
 
 Discrete random variable with two outcomes $$H$$ and $$T$$. The probability of obtaining exactly $$N_H$$ occurences of $$H$$ is given by:
 
 $$p(N_H) = {N\choose N_H}p_H^{N_H}(1-p_H)^{N-N_H}$$
 
-3. Poisson
+##### Poisson
 
 The probability of achieving $$k$$ successes in time $$t$$ is given by
 
