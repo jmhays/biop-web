@@ -4,9 +4,9 @@ title: Mathematical methods in statistical mechanics
 ---
 
 
-### Probability: Chapter 1
+### Probability
 
-#### Definitions, axioms, correlated events
+#### Definitions and axioms
 - A **random variable** $$x$$ is a variable which has a set of possible outcomes $$S=\{x_1, x_2, ..., x_n\}$$. These can be
     - discrete, like rolling a die $$S=\{1,2,3,4,5,6\})$$, or
     - continuous, like the velocity of a particle $$S=\{-\infty \leq v_x, v_y, v_z \leq \infty\}$$
@@ -24,8 +24,53 @@ title: Mathematical methods in statistical mechanics
     - **subjective probability**: obtained from a theoretical estimate.
     - subjective probabilities will be critical in our studies of statistical mechanics.
 
-#### Correlated events
-Coming.
+#### Counting events
+**Permutations** are ordered arrangements of members of a set.
+
+---
+
+**Example: How many ways are there to arrange the last three letters of the alphabet?**
+
+
+We need to calculate the number of different sequences we can make using the letters x, y, z.
+
+We can choose one of three letters for the first element of the sequence. Once we choose one of the three, we've used up one letter. Now there are only two ways to choose the second element of the sequence. Finally, once we've used up two letters, there's only a single letter left to put in the last "spot" of the sequence. So there are $$ 3 \times 2 \times 1 = 3! $$ ways to arrange the last three letters.
+
+---
+
+In general, there are $$ N! $$ ways to arrange $N$ distinguishable elments in a sequence.
+
+**Combinations** are unique compositions of members of a set. Here, order does not matter.
+
+---
+
+**Example: How many different ways are there to arrange the letters that spell the word "cheese"?**
+
+If the *e*'s were distinguishable from one another, then we would have $$N! = 6!$$ ways of arranging the letters. However, this means that we count $$che_1e_2se_3$$ as different from $$che_2e_1se_3$$. That's no good! We need to correct for the over-counting by dividing by the number of ways to arrange just the *e*'s.
+
+$$\Omega = \frac{6!}{3!}$$
+
+---
+
+In general, if you have $$N$$ objects that belong to one of $$t$$ categories and there are $$n_i$$ objects in each category, the number of unique compositions of the set is given by
+
+$$ \Omega = \frac{N!}{n_1!n_2!\cdots n_t!}$$
+
+---
+
+**Example: Bose Einstein statistics. How many ways can *n* indistinguishable particles be arrange into *M* boxes**
+
+Enumerating all the possibilities is just too hard! Luckily, we can do something a little tricky.
+
+- Lay out the $$n$$ particles in a row.
+- Divide up the $$n$$ particles with $$M-1$$ partitions. This is effectively the same thing as putting the particles into $$M$$ boxes (draw it!)
+
+Now we just have two sets of objects: particles and partitions.
+
+$$\Omega = \frac{(n + M - 1)!}{n!(M-1)!}$$
+
+---
+
 #### Important Probability Distributions
 First, how do we define expectation values?
 
@@ -36,8 +81,10 @@ $$\sigma^2 = \langle x^2 \rangle - \langle x \rangle^2 = \int x^2p(x)dx - \left(
 These integrations can get very complex. If you're interested in clever ways to find mean, variance, and higher moments, check out [this](https://en.wikipedia.org/wiki/Characteristic_function_(probability_theory)).
 
 ##### Gaussian
+Gaussian/normal distribution:
 
 $$p(x) = \frac{1}{2\pi\sigma^2}\exp\left[-\frac{(x \lambda)^2}{2\sigma^2}\right]$$
+
 We'll see a lot more of this distribution because
 
 - momentum goes as $$p^2$$ in energy
