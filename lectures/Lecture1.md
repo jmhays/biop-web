@@ -33,7 +33,7 @@ $$\langle x \rangle = \int xp(x)dx$$
 
 $$\sigma^2 = \langle x^2 \rangle - \langle x \rangle^2 = \int x^2p(x)dx - \left(\int xp(x)dx\right)^2$$
 
-These integrations can get very complex. If you're interested in clever ways to find mean, variance, and higher moments, check out [this](https://en.wikipedia.org/wiki/Characteristic_function_\(probability_theory\)).
+These integrations can get very complex. If you're interested in clever ways to find mean, variance, and higher moments, check out [this](https://en.wikipedia.org/wiki/Characteristic_function_(probability_theory)).
 
 ##### Gaussian
 
