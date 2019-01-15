@@ -83,7 +83,7 @@ These integrations can get very complex. If you're interested in clever ways to 
 ##### Gaussian
 Gaussian/normal distribution:
 
-$$p(x) = \frac{1}{2\pi\sigma^2}\exp\left[-\frac{(x \lambda)^2}{2\sigma^2}\right]$$
+$$p(x) = \frac{1}{2\pi\sigma^2}\exp\left[-\frac{(x - \lambda)^2}{2\sigma^2}\right]$$
 
 We'll see a lot more of this distribution because
 
@@ -108,7 +108,7 @@ $$\alpha$$ is the rate of success per unit time. This is a limiting case of the 
 - the number of trials $$N$$ is much larger than the number of successes $$k$$.
 - and $$Np \rightarrow \alpha t $$
 
-The easiest thing is to do consider an example. Let's consider radioactive decay. This is a process in which $$N >> k$$. We ask "what is the probability of observing exactly $$k$$ decays in time $$t$$?"
+The easiest thing to do is to consider an example. Let's consider radioactive decay. This is a process in which $$N >> k$$. We ask "what is the probability of observing exactly $$k$$ decays in time $$t$$?"
 
 - Split up your time interval $$t$$ into $$N$$ very small segments of size $$dt$$.
 - Make them *so* small that only one event occurs in the interval $$dt$$. Assume that the probability of success is proportional to the interval $$dt$$, i.e., $$p = \alpha dt$$
