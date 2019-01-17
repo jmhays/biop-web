@@ -26,6 +26,7 @@ github_username:  jmhays
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jemoji
 
 # A list of the pages to display in the navigation bar
 header_pages:
