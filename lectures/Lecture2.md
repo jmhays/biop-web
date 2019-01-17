@@ -62,6 +62,7 @@ $$\left(\frac{\partial p}{\partial V}\right)\biggr\rvert_{T} = -\frac{Nk_B T}{V^
 $$\left(\frac{\partial p}{\partial T}\right)\biggr\rvert_{V} = \frac{Nk_B}{V}$$
 
 I won't go through all the second partials. Let's just look at two:
+
 $$ \frac{\partial}{\partial V}\biggr\rvert_{T}\frac{\partial}{\partial T}\biggr\rvert_{V} p(V, T)= \frac{\partial}{\partial V}\biggr\rvert_{T}\frac{N k_B}{V} = - \frac{Nk_B}{V^2}$$
 
 $$ \frac{\partial}{\partial T}\biggr\rvert_{V}\frac{\partial}{\partial V}\biggr\rvert_{T} p(V, T)= \frac{\partial}{\partial T}\biggr\rvert_{V}-\frac{N k_B T}{V^2} = - \frac{Nk_B}{V^2}$$
@@ -81,7 +82,7 @@ This is trivially (heh) extended to multiple variables
 
 $$\frac{df(x,y)}{dt} = \frac{\partial f}{\partial x}\bigg)_y\frac{dx}{dt} + \frac{\partial f}{\partial y}\bigg)_x\frac{dy}{dt}.$$
 
-Now do something very, very dangerous. Erase all the $dt$'s.
+Now do something very, very dangerous. Erase all the $$dt$$'s.
 
 $$df = \frac{\partial f}{\partial x}\bigg)_y dx + \frac{\partial f}{\partial y}\bigg)_x dy$$
 
@@ -159,4 +160,8 @@ $$\vec{\nabla} \mathcal{L} = 0$$
 
 We take the divergence here because the geometric interpretation of constrained optimization shows that, at the minimum, $$\nabla f$$ and $$\nabla g$$ are the same (to within some multiplicative factor $$\lambda$$).
 
-$$\begin{pmatrix}\frac{\partial \mathcal{L}}{\partial x_1} & \frac{\partial \mathcal{L}}{\partial x_2} & \cdots & \frac{\partial \mathcal{L}}{\partial x_n}\end{pmatrix} \begin{pmatrix}dx_1 \\ dx_2 \\ \vdots \\ dx_n\end{pmatrix}= 0$$. I think. :grimacing:
+$$ \vec{\nabla} f = \lambda \vec{\nabla}g $$
+
+$$\begin{pmatrix}\frac{\partial f}{\partial x_1} \\ \frac{\partial f}{\partial x_2} \\ \vdots \\ \frac{\partial f}{\partial x_n}\end{pmatrix} = \lambda \begin{pmatrix} \frac{\partial g}{\partial x_1} \\ \frac{\partial g}{\partial x_2} \\ \vdots \\ \frac{\partial g}{\partial x_n} \end{pmatrix}$$
+
+I think. :grimacing:
