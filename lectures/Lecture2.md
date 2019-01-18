@@ -150,6 +150,23 @@ $$ 2y = 2x = -\lambda$$
 
 Right now, we don't care about $$\lambda$$. We eliminate it and find that $$(x^*,y^*) = (3,3)$$. Soon, we'll care a bit about $$\lambda$$
 
+## Practice on your own
+
+1. **Exact differentials.** Is the following expression an "equation of state" (path independent)?
+
+$$ \left(P(V,T) + \frac{a}{V}\right)\left(V - b\right) = RT $$
+
+  Bonus: what kind of system does this equation describe?
+
+2. **Lagrange multipliers. Challenging!** Find the distribution $$p(x)$$ such that
+    - The quantity $$S = -p(x) \ln p(x)$$ is at a maximum.
+    - The mean of $$p(x)$$ is given by $$\langle x \rangle = \mu$$
+    - The variance of $$p(x)$$ is given by $$\langle x^2\rangle - \left(\langle x \rangle\right)^2 = \sigma^2$$
+
+    If you get stumped, just *set up* the problem and don't solve it all the way.
+
+    Hint: the correct distribution should be SUPER familiar! :grin:
+
 ---
 
 ## Lagrangian deets.
