@@ -154,7 +154,7 @@ Right now, we don't care about $$\lambda$$. We eliminate it and find that $$(x^*
 
 1. **Exact differentials.** Is the following expression an "equation of state" (path independent)?
 
-$$ \left(P(V,T) + \frac{a}{V}\right)\left(V - b\right) = RT $$
+    $$ \left(P(V,T) + \frac{a}{V}\right)\left(V - b\right) = RT $$
 
     Bonus: what kind of system does this equation describe?
 
