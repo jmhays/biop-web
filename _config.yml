@@ -32,6 +32,7 @@ plugins:
 header_pages:
   - lectures.md
   - problem_sets.md
+  - syllabus.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
