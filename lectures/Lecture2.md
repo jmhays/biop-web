@@ -148,7 +148,7 @@ Solving for $$x$$, then $$y$$
 
 $$ 2y = 2x = -\lambda$$
 
-Right now, we don't care about $$\lambda$$. We eliminate it and find that $$(x^*,y^*) = (3,3)$$. Soon, we'll care a bit about $$\lambda$
+Right now, we don't care about $$\lambda$$. We eliminate it and find that $$(x^*,y^*) = (3,3)$$. Soon, we'll care a bit about $$\lambda$$
 
 ---
 
