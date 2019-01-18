@@ -156,7 +156,7 @@ Right now, we don't care about $$\lambda$$. We eliminate it and find that $$(x^*
 
 $$ \left(P(V,T) + \frac{a}{V}\right)\left(V - b\right) = RT $$
 
-  Bonus: what kind of system does this equation describe?
+    Bonus: what kind of system does this equation describe?
 
 2. **Lagrange multipliers. Challenging!** Find the distribution $$p(x)$$ such that
     - The quantity $$S = -p(x) \ln p(x)$$ is at a maximum.
