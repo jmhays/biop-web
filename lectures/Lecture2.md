@@ -131,7 +131,7 @@ $$\matrix{\frac{\partial f}{\partial x_1} dx_1 - \lambda \frac{\partial g}{\part
 
 ---
 
-**Example: $$f(x, y) = x^2 + y^2$$ subject to the constraint $$x +y = 6$$. **
+**Example: $$f(x, y) = x^2 + y^2$$ subject to the constraint $$x +y = 6$$.**
 
 $$\mathcal{L} = x^2 + y^2 - \lambda(x + y - 6)$$
 
