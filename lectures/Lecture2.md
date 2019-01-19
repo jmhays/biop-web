@@ -181,4 +181,3 @@ $$ \vec{\nabla} f = \lambda \vec{\nabla}g $$
 
 $$\begin{pmatrix}\frac{\partial f}{\partial x_1} \\ \frac{\partial f}{\partial x_2} \\ \vdots \\ \frac{\partial f}{\partial x_n}\end{pmatrix} = \lambda \begin{pmatrix} \frac{\partial g}{\partial x_1} \\ \frac{\partial g}{\partial x_2} \\ \vdots \\ \frac{\partial g}{\partial x_n} \end{pmatrix}$$
 
-I think. :grimacing:
