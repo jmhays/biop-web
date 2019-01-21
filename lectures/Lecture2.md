@@ -55,7 +55,7 @@ The equation of state (we'll define this carefully in a later lecture) for a gas
 
 $$p(V, T) = \frac{N k_B T}{V}$$
 
-We'll be more rigorous in our definitions of equation of state in the upcoming lectures but, for now, it's just an equation that defines the pressure of a gas as a funtion of $T$ and $V$
+We'll be more rigorous in our definitions of equation of state in the upcoming lectures but, for now, it's just an equation that defines the pressure of a gas as a funtion of $$T$$ and $$V$$
 
 $$\left(\frac{\partial p}{\partial V}\right)\biggr\rvert_{T} = -\frac{Nk_B T}{V^2}$$
 
@@ -131,7 +131,7 @@ $$\matrix{\frac{\partial f}{\partial x_1} dx_1 - \lambda \frac{\partial g}{\part
 
 ---
 
-**Example: $$f(x, y) = x^2 + y^2$$ subject to the constraint $$x +y = 6$$. ***
+**Example: $$f(x, y) = x^2 + y^2$$ subject to the constraint $$x +y = 6$$.**
 
 $$\mathcal{L} = x^2 + y^2 - \lambda(x + y - 6)$$
 
@@ -181,4 +181,3 @@ $$ \vec{\nabla} f = \lambda \vec{\nabla}g $$
 
 $$\begin{pmatrix}\frac{\partial f}{\partial x_1} \\ \frac{\partial f}{\partial x_2} \\ \vdots \\ \frac{\partial f}{\partial x_n}\end{pmatrix} = \lambda \begin{pmatrix} \frac{\partial g}{\partial x_1} \\ \frac{\partial g}{\partial x_2} \\ \vdots \\ \frac{\partial g}{\partial x_n} \end{pmatrix}$$
 
-I think. :grimacing:

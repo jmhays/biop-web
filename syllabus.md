@@ -20,11 +20,11 @@
 ### Lecture 5: Thermodynamics Part III 1/31
 - Chapter 9: Maxwell Relations
 
-### Lecture 6: Ensemble Theory 2/7 (90 min lecture)
+### Lecture 6: Ensemble Theory 2/7 
 - Chapter 10: The Boltzmann Distribution Law pgs 182 – 189
 - Chapter 11: The Statistical Mechanics of Simple Gases and Solids
 
-### Lecture 7: Ensemble Theory 2/12 (90 min lecture)
+### Lecture 7: Ensemble Theory 2/12 
 - Chapter 11: The Statistical Mechanics of Simple Gases and Solids
 - Jennifer goes somewhat rogue
 
