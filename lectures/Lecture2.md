@@ -159,7 +159,7 @@ Right now, we don't care about $$\lambda$$. We eliminate it and find that $$(x^*
     Bonus: what kind of system does this equation describe?
 
 2. **Lagrange multipliers. Challenging!** Find the distribution $$p(x)$$ such that
-    - The quantity $$S = -p(x) \ln p(x)$$ is at a maximum.
+    - The quantity $$S = -\int p(x) \ln p(x)$$ is at a maximum.
     - The mean of $$p(x)$$ is given by $$\langle x \rangle = \mu$$
     - The variance of $$p(x)$$ is given by $$\langle x^2\rangle - \left(\langle x \rangle\right)^2 = \sigma^2$$
 
@@ -180,4 +180,3 @@ We take the divergence here because the geometric interpretation of constrained 
 $$ \vec{\nabla} f = \lambda \vec{\nabla}g $$
 
 $$\begin{pmatrix}\frac{\partial f}{\partial x_1} \\ \frac{\partial f}{\partial x_2} \\ \vdots \\ \frac{\partial f}{\partial x_n}\end{pmatrix} = \lambda \begin{pmatrix} \frac{\partial g}{\partial x_1} \\ \frac{\partial g}{\partial x_2} \\ \vdots \\ \frac{\partial g}{\partial x_n} \end{pmatrix}$$
-
