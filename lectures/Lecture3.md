@@ -148,7 +148,7 @@ That's crazy! We just showed that maximizing *multiplicities* is equivalent to m
 
 $$\frac{\partial \ln\Omega_1(E_1)}{\partial E_1} = \frac{\partial \ln\Omega_2(E_2)}{\partial E_2} = \beta$$
 
-  where $$\beta$$ is some constant. In fact, $$\beta$$ is going to turn out to be exactly $$1/k_B T$$. It shouldn't be surprising that the constant is some function of temperature. After all, we specified that the systems were coming into **thermal contact**: shouldn't the temperature be constant at thermal equilibrium?
+where $$\beta$$ is some constant. In fact, $$\beta$$ is going to turn out to be exactly $$1/k_B T$$. It shouldn't be surprising that the constant is some function of temperature. After all, we specified that the systems were coming into **thermal contact**: shouldn't the temperature be constant at thermal equilibrium?
 
 2. Entropy can also be written in terms of probabilities. Again, not surprising because we just showed that multiplicities and probabilities are closely connected.
 
