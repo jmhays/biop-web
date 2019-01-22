@@ -142,7 +142,7 @@ $$\frac{\partial S_1}{\partial E_1} = \frac{\partial S_2}{\partial E_2}$$
 
 That's crazy! We just showed that maximizing *multiplicities* is equivalent to maximizing *entropy!* Assuming, of course, that you accept that this $$S = k\ln\Omega$$ is the same $$S$$ that you see in thermodynamics. Don't worry. We'll get there.
 
-Two final comments:
+### Two final comments:
 
 1. We can unpack *even more* from the expression $$\frac{\partial \ln\Omega_1(E_1)}{\partial E_1} = \frac{\partial \ln\Omega_2(E_2)}{\partial E_2}$$. Because $$\Omega_1$$ and $$\Omega_2$$ are freely varying (independent) quantities, the only way for their partials to be equal is if the derivatives are constant. In other words:
 
@@ -155,3 +155,7 @@ $$\frac{\partial \ln\Omega_1(E_1)}{\partial E_1} = \frac{\partial \ln\Omega_2(E_
 $$\frac{S}{k} = -\int_{\mu\in\Omega} p(\mu)\ln p(\mu) d\mu$$
 
   We're going to work some examples using the above expression in the next class.
+
+### Practice on your own
+1. Try the first problem of your diagnostic exercise again.
+2. What is maximum value of entropy that a discrete, $$N$$-state system can have? What is the minimum? That is, if I have a system with $$N$$ possible states and the probabilities associated with each of those states are $$\{p_1, p_2,\ldots, p_N\}$$, what values of $$\{p_i\}$$ yield the largest values of $$S$$? The smallest?
