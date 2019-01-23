@@ -19,3 +19,7 @@ c) (15 pts) Assume that $$N$$ is large. Find the entropy $$S$$ of the spin chain
 d) (10 pts) Find the energy of the spin chain as a function of temperature, $$E(T)$$. Make a sketch of the resulting function for the case $$J > 0$$ and indicate the low and high temperature asymptotes (consider only positive $$T$$).
 
 e) (Bonus: 5 pts): Provide some reasons why this is a terrible approximation to lipids in a nanodisc :grin:
+
+3. (15 pts) **Fluctuations in the canonical ensemble.** An ideal gas is held at constant $(N, V, T)$.
+a. (5 pts) Write down the partition function $$Z = \int e^{-\beta E(p,x)}~d^{3N}p~d^{3N}x$$ and compute the integral. Hint: the integral over the coordinates is trivial! Think about the constraints imposed on the system. You may use Wolfram Alpha or any other resource of your choice to perform the integrals over momenta.
+b. (10 pts) By taking clever partial derivatives of the partition function, compute the variance of the energy $$\left(\Delta E\right)^2= \langle E^2\rangle - \langle E\rangle^2$$. What do you notice about $\frac{\sqrt{\left(\Delta E\right)^2}}{E}$?
