@@ -4,6 +4,10 @@
   author: Due at the beginning of class 1/31/19
 ---
 
+[pdf version][1]
+
+[1]:{{ site.url }}/problem_sets/ps1.pdf
+
 1. (10 pts) **Poisson distribution of stars in the galaxy**. Assuming that ~~stars~~ metabolites are randomly distributed in the ~~galaxy~~ cell with a density $$\alpha$$, show that the probability of finding the nearest ~~star~~ metabolite at a distance $$R$$ from the ~~earth~~ nucleus is $$p(R) = 4\pi R^2 \alpha \exp\left({-\frac{4\pi}{3}} R^3 \alpha\right)$$. #biology
 
 2. (40 pts) **Lipid orientation in a nanodisc. Kind of.** :confused: $$N$$ spins are equally spaced around a circle in the *x-y* plane. Each spin can point either parallel or antiparallel to the $$z$$ direction. Niether orientation is preferred. However, the spins interact with each other through a nearest neighbor interaction. If two neighboring spins point in the same direction, they contribute an amount $$−J$$ to the total energy; if they point in opposite directions, they contribute an amount $$J$$. Thus the total energy of the system depends on the number of reversals, $$R$$, that occur around the ring.
