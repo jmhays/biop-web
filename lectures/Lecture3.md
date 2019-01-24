@@ -152,7 +152,7 @@ where $$\beta$$ is some constant. In fact, $$\beta$$ is going to turn out to be 
 
 2. Entropy can also be written in terms of probabilities. Again, not surprising because we just showed that multiplicities and probabilities are closely connected.
 
-$$\frac{S}{k} = -\int_{\mu\in\Omega} p(\mu)\ln p(\mu) d\mu$$
+$$\frac{S}{k} = -\int_{\mu\in\Omega} p(\epsilon(\mu))\ln p(\epsilon(\mu)) d\mu$$
 
   We're going to work some examples using the above expression in the next class.
 
