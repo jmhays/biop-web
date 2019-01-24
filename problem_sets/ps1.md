@@ -14,7 +14,7 @@
 
 $$E = JR − J(N − R) = J(2R − N)$$
 
-a) (5 pts) Assume $$N$$ is even. What are the smallest and largest values that $$R$$ can have? What are the minimum and maximum values of $$E$$?
+a) (2.5 pts) Assume $$N$$ is even. What are the smallest and largest values that $$R$$ can have? What are the minimum and maximum values of $$E$$?
 
 b) (10 pts) Find the total number of microscopic states of the system consistent with a given number of reversals, $$\Omega(R)$$. Note that this corresponds to the number of ways the $$R$$ reversals can be distributed among the *N* inter­spin locations.
 
@@ -22,7 +22,9 @@ c) (15 pts) Assume that $$N$$ is large. Find the entropy $$S$$ of the spin chain
 
 d) (10 pts) Find the energy of the spin chain as a function of temperature, $$E(T)$$. Make a sketch of the resulting function for the case $$J > 0$$ and indicate the low and high temperature asymptotes (consider only positive $$T$$).
 
-e) (Bonus: 5 pts): Provide some reasons why this is a terrible approximation to lipids in a nanodisc :grin:
+e) (2.5 pts) What is the mean value of $$R$$ in the high temperature limit?
+
+f) (Bonus: 5 pts) Provide some reasons why this is a terrible approximation to lipids in a nanodisc :grin:
 
 3. (15 pts) **Fluctuations in the canonical ensemble.** An ideal gas is held at constant $$(N, V, T)$$.
 
