@@ -26,7 +26,7 @@ e) (Bonus: 5 pts): Provide some reasons why this is a terrible approximation to 
 
 3. (15 pts) **Fluctuations in the canonical ensemble.** An ideal gas is held at constant $$(N, V, T)$$.
 
-a. (5 pts) Write down the partition function $$Z = \int \frac{1}{N! h^{3N}}e^{-\beta E(p,x)}~d^{3N}p~d^{3N}x$$ and compute the integral. Use the relationship $$\beta = \frac{1}{k_B T}$ to write your answer as a function of $$N, V, T$$.
+a. (5 pts) Write down the partition function $$Z = \int \frac{1}{N! h^{3N}}e^{-\beta E(p,x)}~d^{3N}p~d^{3N}x$$ and compute the integral. Use the relationship $$\beta = \frac{1}{k_B T}$$ to write your answer as a function of $$N, V, T$$.
 
 Hint: the integral over the coordinates is trivial! Think about the constraints imposed on the system. You may use Wolfram Alpha or any other resource of your choice to perform the integrals over momenta.
 
