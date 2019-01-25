@@ -8,3 +8,5 @@ title: Lectures
 [Lecture 2](/lectures/Lecture2.md)
 
 [Lecture 3](/lectures/Lecture3.md)
+
+[Lecture 4](/lectures/Lecture4.md)
