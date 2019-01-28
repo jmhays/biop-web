@@ -33,3 +33,19 @@ a. (5 pts) Write down the partition function $$Z = \int \frac{1}{N! h^{3N}}e^{-\
 Hint: the integral over the coordinates is trivial! Think about the constraints imposed on the system. You may use Wolfram Alpha or any other resource of your choice to perform the integrals over momenta.
 
 b. (10 pts) By taking clever partial derivatives of the partition function, compute the variance of the energy $$\left(\Delta E\right)^2= \langle E^2\rangle - \langle E\rangle^2$$. What do you notice about $$\frac{\sqrt{\left(\Delta E\right)^2}}{E}$$?
+
+---
+
+## Relationships you may need
+
+$$ \frac{\partial S}{\partial E}\bigg)_{N,V,T} = \frac{1}{T}$$
+
+Sterling's approximation: for large $$N$$,
+
+$$ \ln N! \approx N\ln N - N$$
+
+Taylor series:
+
+$$e^{x} = 1 + x + \mathcal{O}(x^2) + \cdots $$
+
+If $$x$$ is small, you can neglect high order $$x$$ terms in the expansion above.
