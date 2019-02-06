@@ -40,6 +40,7 @@ Ignore literally everything I have to say about enthalpy. I'm letting go of it a
 Write down the Helmholtz Free Energy of each configuration:
 
 $$F_c = U_c + TS_c = 0$$
+
 $$F_o = U_o + TS_o = \epsilon + k_BT \ln 4$$
 
 In the low temperature limit, the closed conformation becomes more favorable since $$F_c << F_o$$. At low temperatures, system behavior is driven by the internal energy. Conversely, in the high temperature limit, entropy becomes the driving force, and the open states become more populated until all microstates are equally probable.
