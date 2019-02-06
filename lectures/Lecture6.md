@@ -44,6 +44,21 @@ $$ \mu = -\frac{\partial F}{\partial N}\bigg)_{x, T}$$
 
 The Helmholtz Free Energy is minimized when it's natural variables $$N, x, T$$ are held constant.
 
+### Enthalpy (S, N, J)
+
+Let's define a new function $$H = U - Jx$$. Then
+
+$$dH = dU - Jdx - xdJ $$
+$$\Rightarrow dH = TdS - xdJ + \mu dN.$$
+
+The natural variables of Enthalpy are $$S, J, N$$ because all other thermodynamic quantities can be found in terms of partials of $$H$$ with respect to the natural variables:
+
+$$ x = \frac{\partial H}{\partial J}\bigg)_{N,S}$$
+$$ T = -\frac{\partial H}{\partial S}\bigg)_{N,x}$$
+$$ \mu = -\frac{\partial H}{\partial N}\bigg)_{x, S}$$
+
+The Enthalpy is minimized when it's natural variables $$S, N, J$$ are held constant.
+
 ### Gibbs Free Energy: constant (N, J, T)
 
 We can do exactly the same thing for a new thermodynamic potential, Gibbs Free Energy.
