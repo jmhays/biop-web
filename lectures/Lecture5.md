@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thermodynamics: First and Second Laws
+title: First and Second Laws of Thermodynamics
 ---
 
 ### Definitions

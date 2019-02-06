@@ -10,3 +10,5 @@ title: Lectures
 [Lecture 3](/lectures/Lecture3.md)
 
 [Lecture 4](/lectures/Lecture4.md)
+
+[Lecture 5](/lectures/Lecture5.md)
