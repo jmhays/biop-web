@@ -168,3 +168,9 @@ When we have a differential that is path independent, we can define a state func
 $$S_B - S_A = \int_A^B \frac{đQ_{rev}}{T}$$
 
 which is what we had set out to prove.
+
+#### Irreversible Processes
+
+If a process is irreversible, it can be shown that $$dS \geq \frac{đQ}{T}.$$ This allows yet another reformulation of the second law, which is that
+
+<center> Any irreversible process in an isolated system increases entropy. Reversible processes keep entropy the same</center>
