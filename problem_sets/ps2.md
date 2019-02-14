@@ -13,8 +13,12 @@ b. Compute the average total length L in this ensemble by differentiating $$Z(\b
 c. Compute the root mean square fluctuation in length, $$\sqrt{(L-L_0)^2}$$ by further differentiation of $$Z(\beta, \beta f, N )$$. How does this quantity compare in magnitude with $$L$$ and why is your result expected or unexpected?
 
 2. Consider a box of total volume V that is divided by a sliding partition into two chambers of volumes $$V_1$$ and $$V_2$$. The chambers contain $$N_1$$ and $$N_2$$ particles, respectively, of an ideal gas. The walls of the box are held at fixed temperature $$T$$. We wish to determine the equilibrium position of the partition.
+
 (a) Write out an expression for the total free energy of the sytem by summing
 the free energies of each partition. Which free energy did you choose and why?
+
 (b) Using $$V_2 = V − V_1$$, set $$\frac{\text{my favorite free energy}}{\partial V_1}\bigg)_{\text{my favorite macrostate}}= 0$$ and solve for the equilibrium ratio $$\frac{V_1}{V_2}$$.
+
 (c) Verify that your solution also corresponds to a maximum of the entropy $$S$$.
+
 (d) Verify that your solution for b. corresponds to equal pressures in each chamber.
