@@ -39,4 +39,5 @@ Now you will related this result to thermodynamics.
 $$U = \frac{\partial (F/T)}{\partial (1/T)}\bigg)_{N,V}$$
 
 for Helmholtz free energy $$F$$.
-(c) Show that these results are consistent if we identify $$\beta = \frac{1}{k_B T}$$ and $$F = −k_B T \ln Z$$ for arbitrary constant $$k_B$$.
+
+(b) Show that these results are consistent if we identify $$\beta = \frac{1}{k_B T}$$ and $$F = −k_B T \ln Z$$ for arbitrary constant $$k_B$$.
