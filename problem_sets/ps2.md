@@ -25,3 +25,18 @@ the free energies of each partition. Which free energy did you choose and why?
 (c) Verify that your solution also corresponds to a maximum of the entropy $$S$$.
 
 (d) Verify that your solution for b. corresponds to equal pressures in each chamber.
+
+## Problem 3
+
+We showed in class that the probability for a system to have energy $$\epsilon_i$$ is proportional to $$e^{−\beta \epsilon_i}$$. You also showed in the last problem set that the average energy of a system can be expressed in terms of the partition function $$Z = \sum_i e^{-\beta\epsilon_i}$$:
+
+$$U = \langle E\rangle = -\frac{\partial}{\partial\beta}\ln Z$$
+
+Now you will related this result to thermodynamics.
+
+(a) Using only thermodynamics, show that
+
+$$U = \frac{\partial (F/T)}{\partial (1/T)}\bigg)_{N,V}$$
+
+for Helmholtz free energy $$F$$.
+(c) Show that these results are consistent if we identify $$\beta = \frac{1}{k_B T}$$ and $$F = −k_B T \ln Z$$ for arbitrary constant $$k_B$$.
