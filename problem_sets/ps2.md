@@ -11,7 +11,7 @@ A single, long, straight, chain molecule is made up of $$N$$ non-interacting mic
 
 a. (15 pts) Calculate the intramolecular partition function $$Z(\beta, \beta f, N )$$ for this model polymer in an ensemble characterized by $$\beta, \beta f,$$ and $$N$$. (Note: The total energy $$E$$ and the total length, $$L$$, are allowed to fluctuate, but the number of segments, $$N$$, is kept fixed.) Write your answer as an explicit function of $$\beta, f, N,$$ and model parameters ,$$\epsilon, \ell$$ and $$\delta$$.
 
-Hint: use the expression for the isothermal-isobaric ensemble [here](https://en.wikipedia.org/wiki/Isothermal%E2%80%93isobaric_ensemble). Recall that the sign convention for pressure is opposite to what we normally use for generalized coordinates! Also, we're working with a discrete system, not a continuous one.
+Hint: Check out a [new resource](extra.md) I've added
 
 b. (15 pts) Compute the average total length L in this ensemble by differentiating $$Z(\beta, \beta f, N )$$ appropriately. Is your result an increasing or decreasing function of temperature? Give a physical interpretation of your answer.
 
@@ -42,6 +42,6 @@ Now you will related this result to thermodynamics.
 
 $$U = \frac{\partial (F/T)}{\partial (1/T)}\bigg)_{N,V}$$
 
-for Helmholtz free energy $$F$$.
+for Helmholtz free energy $$F$$. **BEWARE: YOU MAY NOT ASSUME THIS IS AN IDEAL GAS**
 
 (b) (10 pts) Show that these results are consistent if we identify $$\beta = \frac{1}{k_B T}$$ and $$F = −k_B T \ln Z$$ for arbitrary constant $$k_B$$.
