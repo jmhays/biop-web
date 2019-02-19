@@ -11,6 +11,8 @@ A single, long, straight, chain molecule is made up of $$N$$ non-interacting mic
 
 a. (15 pts) Calculate the intramolecular partition function $$Z(\beta, \beta f, N )$$ for this model polymer in an ensemble characterized by $$\beta, \beta f,$$ and $$N$$. (Note: The total energy $$E$$ and the total length, $$L$$, are allowed to fluctuate, but the number of segments, $$N$$, is kept fixed.) Write your answer as an explicit function of $$\beta, f, N,$$ and model parameters ,$$\epsilon, \ell$$ and $$\delta$$.
 
+Hint: use the expression for the isothermal-isobaric ensemble [here](https://en.wikipedia.org/wiki/Isothermal%E2%80%93isobaric_ensemble). Recall that the sign convention for pressure is opposite to what we normally use for generalized coordinates! Also, we're working with a discrete system, not a continuous one.
+
 b. (15 pts) Compute the average total length L in this ensemble by differentiating $$Z(\beta, \beta f, N )$$ appropriately. Is your result an increasing or decreasing function of temperature? Give a physical interpretation of your answer.
 
 c. (15 pts) Compute the root mean square fluctuation in length, $$\sqrt{(L-L_0)^2}$$ by further differentiation of $$Z(\beta, \beta f, N )$$. How does this quantity compare in magnitude with $$L$$ and why is your result expected or unexpected?
